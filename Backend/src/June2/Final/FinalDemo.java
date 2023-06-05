@@ -1,4 +1,4 @@
-package Jun2.Final;
+package June2.Final;
 
 public final class FinalDemo {
     final int var1=13;

@@ -1,4 +1,4 @@
-package Jun2.Static;
+package June2.Static;
 
 public class Main {
     public static void main(String[] args){

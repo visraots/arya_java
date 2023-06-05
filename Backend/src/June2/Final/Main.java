@@ -1,4 +1,4 @@
-package Jun2.Final;
+package June2.Final;
 
 public class Main{
 

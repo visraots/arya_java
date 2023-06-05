@@ -1,4 +1,4 @@
-package Jun2.Interfaces;
+package June2.Interfaces;
 
 public class InterfaceMain implements AbsInterface, Interface1 {
 

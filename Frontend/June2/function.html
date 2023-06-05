@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  let arr=["Cricket","Tennis","Reading","Volleyball","Coding"];
+function disparray(arr)
+{
+  console.log(arr);
+}
+function addval(arr,newhobbie)
+{
+  arr.push(newhobbie);
+  console.log(arr);
+}
+function deletele(value_to_be_deleted)
+{
+  arr.pop(arr.indexOf(value_to_be_deleted));
+  console.log();
+}
+disparray(arr);
+addval(arr,"Gym");
+deletele("Gym");
+console.log(arr);
+</script>
+</body>
+</html>

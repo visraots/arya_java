@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<label>FirstName: </label>
+<input type="text" id="FirstName"/> </input>
+<br>
+<br>
+<label>LastName: </label>
+<input type="text" id="LastName"/> </input>
+<br>
+<br>
+<label>DOB: </label>
+<input type="date" id="DOB"/> </input>
+<br>
+<br>
+<label>Email: </label>
+<input type="text" id="Email"/> </input>
+<br>
+<br>
+<label>PhoneNo: </label>
+<input type="text" id="PhoneNo"/> </input>
+<br>
+<br>
+<label>Tech </label>
+<input type="text" id="Tech"/> </input>
+<button type="button" onclick="myFunction()">Submit</button>
+<p id="demo"></p>
+<script>
+
+
+    function myFunction() {
+				var elements = document.getElementsByTagName("input")
+				let s="";
+for (var i = 0; i < elements.length; i++) {
+    s+=elements[i].value+"<br>";
+}
+document.getElementById("demo").innerHTML = s;
+
+    }
+    </script>
+</body>
+
+</html>

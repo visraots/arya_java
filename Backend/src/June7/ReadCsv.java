@@ -1,7 +1,7 @@
 package June7;
 import java.io.*;
 import java.util.*;
-public class ReadCsv {
+public class ReadCsv  {
 	
 
 	public static void main(String[] args) {
@@ -13,12 +13,7 @@ public class ReadCsv {
 	        while ((line = br.readLine()) != null) {
 	            llp.add(Arrays.asList(line.split(cvsSplitBy)));
 	        }
-	        llp.sort(new Comparator<List<String>>() {
-	            
-	            public int compare(List<String> o1, List<String> o2) {
-	                return o1.get(1).compareTo(o2.get(1));
-	            }
-	        });
+	        Collections.sort(llp,new Comparable());
 	        System.out.println(llp);
 
 	    } catch (IOException e) {

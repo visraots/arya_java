@@ -44,25 +44,23 @@
 
 <script>
 
-
-    function myFunction() {
+function myFunction() {
 				var elements = document.getElementsByTagName("input")
 				let s="";
 for (var i = 0; i < elements.length-3; i++) {
     s+=elements[i].value+"<br>";
-
 }
 var ele = document.getElementsByName("hobby");
 for (i = 0; i < ele.length; i++) {
             if (ele[i].checked){
                 s+=ele[i].value+"<br>";
-              }
-        }
+}
+}
+
 
 document.getElementById("demo").innerHTML = s;
 
     }
-    </script>
+</script>
 </body>
-
 </html>

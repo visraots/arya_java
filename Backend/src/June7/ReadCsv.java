@@ -1,8 +1,8 @@
-package June7;
+ package June7;
 import java.io.*;
 import java.util.*;
 public class ReadCsv  {
-	
+
 
 	public static void main(String[] args) {
 		String csvFile = "/Users/aryavishnu/Downloads/Data.csv";
@@ -20,6 +20,6 @@ public class ReadCsv  {
 	        e.printStackTrace();
 	    }
 
-	
+
 	}
 }

@@ -39,9 +39,9 @@ public class HashImple {
             int target=4;
             Map<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {
-                int complement = target - nums[i];
-                if (map.containsKey(complement)) {
-                    System.out.println(map.get(complement)+ " "+i);
+                int c = target - nums[i];
+                if (map.containsKey(c)) {
+                    System.out.println(map.get(c)+ " "+i);
                 }
                 map.put(nums[i], i);
             }
